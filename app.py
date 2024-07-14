@@ -36,5 +36,3 @@ def get_recommendations():
     return jsonify(response)
 
 # This is required to run the app on Vercel
-if __name__ == '__main__':
-    app.run()
